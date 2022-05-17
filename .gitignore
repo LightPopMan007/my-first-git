@@ -30,10 +30,13 @@ yarn-error.log*
 .env.test.local
 .env.production.local
 
+<<<<<<< HEAD
 # vercel
 .vercel
 
 .vercel
 
+=======
+>>>>>>> 66991d45f45716729cc6e9dd95901ffda2ca700c
 # Local Netlify folder
 .netlify
