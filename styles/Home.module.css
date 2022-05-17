@@ -1,0 +1,27 @@
+@tailwind components;
+
+@layer components {
+    .tabMenu {
+        @apply p-2 w-3/10 text-center;
+        transform: translateY(2px)
+    }
+    .tM {
+        @apply w-4/10 !important;
+    }
+    .textarea {
+        @apply resize-none h-28 w-full py-2 px-5 text-base focus:outline-none text-gray-700 font-light focus:ring-1 focus:ring-darkblue border border-darkblue rounded-xl;
+    }
+    .tA2 {
+        @apply h-12 my-4 !important;
+    }
+    .button {
+        @apply bg-darkblue w-full text-center mt-2 rounded-lg tracking-wide capitalize text-white py-2 text-lg;
+    }
+    .walletIcon {
+        @apply w-32 h-32 rounded-full !important;
+        min-width: none;
+        min-height:none;
+        max-width:none;
+        max-height:none;
+    }
+}
