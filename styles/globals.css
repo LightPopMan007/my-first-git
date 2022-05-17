@@ -1,0 +1,6 @@
+/* ./styles/globals.css */
+@tailwind components;
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
